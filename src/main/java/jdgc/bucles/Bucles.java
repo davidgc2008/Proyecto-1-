@@ -10,9 +10,7 @@ package jdgc.bucles;
 public class Bucles {
 
     public static void main(String[] args) {
-        buclesWhile();
-        bucleDoWhile();
-        bucleFor();
+        contarDe10a1();
     }
 
     public static void buclesWhile() {
@@ -43,4 +41,22 @@ System.out.println(""); //para que se vaya la linea de abajo
         }
         System.out.println("");
     }
+    public static void contarDe10a1(){
+        //contar del 10 al 1 TODO EN LA MISMA LISTA
+       int i = 10;
+        System.out.println("Bucle While");
+        while (i <=10){
+            System.out.println( i + " ");
+            i--;
+            
+        }
+        
+        
+        
+    }
 }
+//mostrar los numeros pares entre 0 y 10 con el bucle que queramos
+//pedir numeros al usuario hasta que teclee un 0
+//mostrar solo los numeros negativos
+//igual que el anterior, pero contando el numero de positivos, el numero de negativos, y los multiplos de cinco
+//HACERLO SIN IA
