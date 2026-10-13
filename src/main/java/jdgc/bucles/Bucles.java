@@ -19,17 +19,28 @@ public class Bucles {
 //escribir del 1 al 3
         int i = 1;
         while (i <= 3) {
-            System.out.println(i + " ");
+            System.out.print(i + " ");
             i++;
         }
         System.out.println(""); //para que se vaya la linea de abajo
     }
 
     public static void bucleDoWhile() {
-
-    }
+System.out.println("BUCLE DO WHILE");
+int i = 1;
+do{
+    System.out.print(i + " ");
+    i++;
+}while (i<=3);
+System.out.println(""); //para que se vaya la linea de abajo
+}
+    
 
     public static void bucleFor() {
-
+        System.out.println("BUCLE FOR");
+        for (int i = 1; i <= 3; i++) {
+            System.out.print(i + " ");                      
+        }
+        System.out.println("");
     }
 }
